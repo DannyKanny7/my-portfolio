@@ -1,0 +1,241 @@
+@media  (max-width:932px){
+/* ALREADY OPTIMIZED BY DESKTOP  */
+}
+@media  (max-width:820px){
+    .services-ctn{
+        gap: 17px;
+    }
+    .more_abt_project__partition{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .home-section header{
+        width: 90%;
+    }
+}
+@media  (max-width:789px){
+    .floating__nav{
+        width: 95%;
+    }
+    .nav-link__svg-ctn{
+        height: 40px;
+        width: 40px;
+    }
+     .services-ctn{
+        gap: 2.5px;
+    }
+
+}
+@media  (max-width:640px){
+    .floating__nav{
+        width: 98%;
+        padding: 0.1rem;
+        height: 60px;
+        gap: max(2px,4%);
+    }
+    .header__main{
+        font-size: 6vw;
+    }
+    .header__sub{
+        font-size: 2.5vw;
+    }
+     .services-ctn{
+        gap: 50px;
+    }
+    .floating-nav__links{
+        min-width: 100px;
+        font-size: 0.8rem;
+    }
+     .nav-link__svg-ctn{
+        width: 40px;
+     }
+     .about-me__btn a{
+        font-size: max(11px,2.1vw);
+     }
+     .each-project__description{
+         font-size: 3vw;
+         line-break: normal;
+     }
+     .each-project__btn-ctn{
+        height: 70px;
+     }
+     .each-project-number{
+        height: 65px;
+     }
+     .more_abt_project__partition{
+        padding: 0.1rem;
+     }
+     .project_pic_partition{
+        width: 40%;
+        background-size: 100%;
+     }
+     .project_about_Partition{
+        width: 60%;
+     }
+     .project_about_Partition h1{
+        font-size:5.3vw;
+        transform: translateY(-0.1rem);
+
+     }
+     .project_about_Partition p{
+        font-size: max(13px,2.2vw);
+     }
+     .project_about_Partition div{
+        height: 37%;
+     }
+     .project_about_Partition div span{
+        font-size: max(12px,1.9vw) ;
+     }
+     .about_me_section{
+        border: 1px ;
+     }
+     .about_me_others{
+        height: 500px;
+     }
+     .about_me_others__inner h1{
+        font-size: max(30px,5.3vw);
+     }
+     .skills_features__ctn{
+        gap: 12px;
+     }
+
+
+}
+@media  (max-width:475px){
+    .floating__nav{
+        gap: 2%;
+    }
+    .floating-nav__links{
+        width: 17%;
+        min-width: 0px;
+        font-size: 0rem;
+    }
+    .about-me__btn{
+        width: 36%;
+    }
+    .about-me__btn a{
+        font-size: max(14px,2.1vw)
+    }
+    .floating-nav__links a{
+        color: black;
+        width: 40px;
+
+    }
+    .home-section header{
+        height: 250px;
+    }
+    .header__main{
+        font-size: max(17px,5vw);
+        line-height: 30px;
+    }
+     .contact-btn__ctn{
+        width: 90%;
+        font-size: 2.9vw;
+    }
+    .contact-btn__ctn button{
+        font-size: 2.9vw;
+    }
+    .about_me_header{
+        align-items: center;
+        justify-content: center;
+        font-size: 4.5vw;
+    }
+    .each-project__btn-ctn{
+        width: 70%;
+        min-width: 0px;
+    }
+    .project_pic_partition{
+        display: none;
+        position: absolute;
+        z-index: 999;
+        width: 70%;
+        margin-left: 50%;
+         transform: translate(-50%, -0%);
+
+        
+    }
+    .project_about_Partition h1{
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 1rem;
+    }
+    .project_about_Partition{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .each-project__btn-ctn{
+        min-width: 300px;
+    }
+    .each-project__btn-ctn button{
+        font-size: 2.3vw;
+    }
+    .each-project__btn-ctn button:nth-child(1){
+        font-size: 3vw;
+    }
+     .view_mobile_version_btn{
+       display: flex;
+       border-radius: 5px;
+       border: none;
+    }
+    #cancel_view_mobile_btn{
+        display: block;
+        animation: 1s animate_cancel_btn ease-in-out;
+    }
+
+    .service-section-header__svg-ctn{
+        padding: 0.8rem;
+    }.services-section__header{
+        gap: 10px;
+    }
+    .services-section__header h2{
+        font-size: 5.5vw;
+    }
+    .services-section__header h3{
+        font-size: 4vw;
+    }
+    .about_me_others__inner h1{
+        font-size: 6vw;
+    }
+    .about_me_others__inner p{
+        font-size: max(14px,3vw);
+    }
+   .about_me_section__img{
+    min-width: 310px;
+   }
+   .language_logo_ctns{
+    width: 90%;
+    height: fit-content;
+    max-width: none;
+    min-width: 0px;
+    padding: 0.1rem;
+   }
+    @keyframes animate_cancel_btn {
+        from{
+            transform: translateY(-100%);
+        }
+    }
+}
+@media  (max-width:404px){
+    .each-project__btn-ctn{
+        min-width: 150px;
+    }
+    .each-project__btn-ctn button{
+        font-size: max(11px,2.3vw);
+    }
+    .each-project__btn-ctn button:nth-child(1){
+         font-size: max(11px,2.3vw);
+    }
+    .each-project-btns_and_dsp__ctn{
+        width: 98%;
+        min-width: 300px;
+    }
+    .about_me_header{
+        font-size: max(20px,4.5vw);
+        line-height: 30px;
+    }
+    .about_me_others{
+        height: 650px;
+    }
+
+}

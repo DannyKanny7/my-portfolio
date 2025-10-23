@@ -1188,6 +1188,7 @@ background-color: hsla(271, 72%, 53%, 1);
                 5px 3px 5px hsl(0, 0%, 0%,5%);
     background-size: cover;
     overflow: hidden;
+    border: 5px solid hsl(0, 0%, 100%,50%) ;
 }
 .about_me_others__inner{
     width: 100%;
@@ -1226,9 +1227,8 @@ background-color: hsla(271, 72%, 53%, 1);
     color: hsl(0, 0%, 100%,90%);
     line-height: 25px;
     backdrop-filter: blur(100px);
-    background-color: hsl(0, 0%, 100%,5%);
+    background-color: hsl(0, 0%, 0%,50%);
     font-size: 1rem;
-    border: 3px solid hsl(0, 0%, 100%,30%);
 }
 .skills_features__ctn{
     width: 100%;

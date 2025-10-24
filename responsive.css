@@ -196,6 +196,7 @@
     }
     .about_me_others__inner h1{
         font-size: 6vw;
+        width: 70%;
     }
     .about_me_others__inner p{
         font-size: max(14px,3vw);

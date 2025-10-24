@@ -1025,8 +1025,7 @@ background-color: hsla(271, 72%, 53%, 1);
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 1300px;
-    margin-left: auto;
+     margin-left: auto;
     margin-right: auto;
     gap: 2rem;
     height: fit-content;
@@ -1073,6 +1072,7 @@ background-color: hsla(271, 72%, 53%, 1);
                 -5px 3px 5px hsl(0, 0%, 0%,20%),
                 -5px 3px 5px hsl(0, 0%, 0%,20%),
                 5px 3px 5px hsl(0, 0%, 0%,20%);
+    border: 2px solid hsl(0, 0%, 100%,50%);
 }
 .about_me_header__svg-ctn svg{
     width: 100%;
@@ -1086,6 +1086,7 @@ background-color: hsla(271, 72%, 53%, 1);
 .about_me_section__img{
     width: 25%;
     min-width: 350px;
+    max-width: 350px;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1187,8 +1188,11 @@ background-color: hsla(271, 72%, 53%, 1);
                 -5px 3px 5px hsl(0, 0%, 0%,5%),
                 5px 3px 5px hsl(0, 0%, 0%,5%);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     overflow: hidden;
-    border: 5px solid hsl(0, 0%, 100%,50%) ;
+    border: 0.2rem solid hsl(0, 0%, 100%,50%) ;
 }
 .about_me_others__inner{
     width: 100%;
@@ -1204,17 +1208,22 @@ background-color: hsla(271, 72%, 53%, 1);
     gap: 3%;
 }
 .about_me_others__inner h1{
-    width: 100%;
+    width: 70%;
     height: fit-content;
     color: hsl(0, 0%, 100%,80%);
     margin: 0px;
-    font-size: 2.4rem;
-    font-weight: bolder;
+    font-size: 2.2rem;
+    font-weight: lighter;
     text-align: center;
-     text-shadow:  5px 3px 5px hsl(0, 0%, 0%,5%),
-                -5px 3px 5px hsl(0, 0%, 0%,5%),
-                -5px 3px 5px hsl(0, 0%, 0%,5%),
-                5px 3px 5px hsl(0, 0%, 0%,5%);
+    background: black;
+    margin-top: -1.2rem;
+    padding: 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+     box-shadow:  5px 3px 5px hsl(0, 0%, 0%,10%),
+                -5px 3px 5px hsl(0, 0%, 0%,10%),
+                -5px 3px 5px hsl(0, 0%, 0%,10%),
+                5px 3px 5px hsl(0, 0%, 0%,10%);
 }
 .about_me_others__inner p{
     margin: 0px;

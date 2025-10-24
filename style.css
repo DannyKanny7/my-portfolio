@@ -1190,7 +1190,7 @@ background-color: hsla(271, 72%, 53%, 1);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+
     overflow: hidden;
     border: 0.2rem solid hsl(0, 0%, 100%,50%) ;
 }
@@ -1213,7 +1213,7 @@ background-color: hsla(271, 72%, 53%, 1);
     color: hsl(0, 0%, 100%,80%);
     margin: 0px;
     font-size: 2.2rem;
-    font-weight: lighter;
+    font-weight: bolder;
     text-align: center;
     background: black;
     margin-top: -1.2rem;
@@ -1233,7 +1233,7 @@ background-color: hsla(271, 72%, 53%, 1);
     box-sizing: border-box;
     padding: 1rem;
     border-radius: 10px;
-    color: hsl(0, 0%, 100%,90%);
+    color: hsl(0, 0%, 100%,80%);
     line-height: 25px;
     backdrop-filter: blur(100px);
     background-color: hsl(0, 0%, 0%,50%);
@@ -1267,9 +1267,8 @@ background-color: hsla(271, 72%, 53%, 1);
     font-size: 0.8rem;
 }
 .language_logo_ctns{
-    width: fit-content;
+    width: 100%;
     height: 20%;
-     background-color: hsl(0, 0%, 0%,50%);
      border-radius: 10px;
      display: flex;
      flex-direction: row;
@@ -1280,6 +1279,8 @@ background-color: hsla(271, 72%, 53%, 1);
      padding-left:0.5rem;
      padding-right: 0.5rem;
      gap: 0.5rem;
+     background-color: hsl(0, 0%, 100%,30%);
+     backdrop-filter: blur(100px);
 }
 .language_img{
     width: 60px;
@@ -1290,7 +1291,10 @@ background-color: hsla(271, 72%, 53%, 1);
     background-size: cover;
     background-position: center;
     background-color: white;
-    
+    box-shadow:  5px 3px 5px hsl(0, 0%, 0%,10%),
+                -5px 3px 5px hsl(0, 0%, 0%,10%),
+                -5px 3px 5px hsl(0, 0%, 0%,10%),
+                5px 3px 5px hsl(0, 0%, 0%,10%);
 }
 .language_img:nth-child(1){
     background-size: 70%;

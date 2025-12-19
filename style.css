@@ -1,3 +1,23 @@
+@font-face {
+    font-family:Pacific;
+    src: url(Pacifico.ttf);
+}
+
+/* removing default browser behaviour/////////////////////////////// */
+/* to remove default behaviour */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove the blue focus outline on click */
+:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -13,7 +33,8 @@ body{
 }
 .floating__nav{
     width: 750px;
-    background-color: white;
+    background-color: hsl(0, 0%, 0%,5%);
+    backdrop-filter: blur(40px);
     height: 70px;
     border-radius: 40px;
     display: flex;
@@ -21,10 +42,10 @@ body{
     justify-content: space-evenly;
     box-sizing: border-box;
     padding: 0.5rem;
-     box-shadow:  5px 3px 5px hsl(0, 0%, 0%,2%),
-                -5px 3px 5px hsl(0, 0%, 0%,2%),
-                -5px 3px 5px hsl(0, 0%, 0%,2%),
-                5px 3px 5px hsl(0, 0%, 0%,2%);
+     box-shadow:  5px 3px 5px hsl(0, 0%, 0%,5%),
+                -5px 3px 5px hsl(0, 0%, 0%,5%),
+                -5px 3px 5px hsl(0, 0%, 0%,5%),
+                5px 3px 5px hsl(0, 0%, 0%,5%);
     overflow: hidden;
     gap: 4%;
     position: fixed;
@@ -32,7 +53,7 @@ body{
      transform: translate(-50%, -50%);
      left: 50%;
      top: 50px;
-     border: 2px solid hsl(0, 0%, 0%,10%);
+    
 
 }
 .floating-nav__links{
@@ -44,10 +65,19 @@ body{
     border-radius: 40px;
     gap: 0.5%;
     border: none;
-    background-color: hsl(255, 10%, 92%);
     box-sizing: border-box;
     padding-right: 1%;
     font-size: 0.85rem;
+    backdrop-filter: blur(100px);
+    background-color: hsl(0, 0%, 100%,40%);
+    color: black;
+     box-shadow:  5px 3px 5px hsl(0, 0%, 0%,10%),
+                -5px 3px 5px hsl(0, 0%, 0%,10%),
+                -5px 3px 5px hsl(0, 0%, 0%,10%),
+                5px 3px 5px hsl(0, 0%, 0%,10%);
+   
+    box-sizing: border-box;
+    border: 1px solid hsl(0, 0%, 100%,10%);
 
 }
 
@@ -55,7 +85,7 @@ body{
 .nav-link__svg-ctn{
     width: 38%;
     height: 90%;
-    background-color: white;
+    background-color: hsl(0, 0%, 0%,90%);
      border-radius: 50%;
      margin-left: 1%;
      margin-right: auto;
@@ -65,7 +95,7 @@ body{
                 -5px 3px 5px hsl(0, 0%, 0%,5%),
                 -5px 3px 5px hsl(0, 0%, 0%,5%),
                 5px 3px 5px hsl(0, 0%, 0%,5%);
-    color: inherit;
+    color: white;
     text-decoration: none;
      -webkit-tap-highlight-color: transparent;
 }
@@ -142,7 +172,8 @@ body{
 
 section{
      width: 100%;
-    height: 650px;
+    height: 100vh;
+    min-height: 450px;
 }
 
 .home-section{
@@ -810,11 +841,13 @@ background-color: hsla(271, 72%, 53%, 1);
     display: flex;
      flex-direction: row;
     flex-wrap: wrap;
-    border-radius: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     box-sizing: border-box;
     padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(0, 0%, 100%,10%);
+    background-color: hsl(0, 0%, 100%,40%);
     margin-top: 0px;
     margin-bottom: auto;
 
@@ -864,6 +897,8 @@ background-color: hsla(271, 72%, 53%, 1);
      justify-content: center;
      font-size: 2rem;
      font-weight: 300;
+      font-family: Pacific;
+    font-weight: bolder;
      overflow: hidden;
      color: hsl(0, 0%, 0%,80%);
      box-sizing: border-box;
@@ -875,6 +910,10 @@ background-color: hsla(271, 72%, 53%, 1);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     font-weight: 300;
+     box-shadow:  5px 3px 5px hsl(0, 0%, 0%,5%),
+                -5px 3px 5px hsl(0, 0%, 0%,5%),
+                -5px 3px 5px hsl(0, 0%, 0%,5%),
+                5px 3px 5px hsl(0, 0%, 0%,5%);
 }
 .project_about_Partition p{
     margin: 0px;
@@ -885,9 +924,11 @@ background-color: hsla(271, 72%, 53%, 1);
     padding: 1rem;
     font-size: 1rem;
     overflow: hidden;
-    line-height: 23px;
-    background-color: hsl(0, 0%, 100%,30%);
+    line-height: 25px;
+    background-color: black;
     border-radius: 10px;
+    opacity: 60%;
+    font-weight: lighter;
 }
 .project_about_Partition div{
     width: 100%;
@@ -1099,12 +1140,6 @@ background-color: hsla(271, 72%, 53%, 1);
                 5px 3px 5px hsl(0, 0%, 0%,5%);
     background-position: center;
    
-}
-.about_me_section__img:hover{
-    background-size: 150%;
-     animation: 0.5s ease-out  hover_my_pic ;
-     transform: translateY(-10%);
-     transition: 0.3s ease-in-out;
 }
 @keyframes hover_my_pic{
     from{

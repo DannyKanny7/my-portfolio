@@ -107,7 +107,6 @@
 }
 @media  (max-width:475px){
     section{
-        min-height: 450px;
         height: 500px;
     }
     .floating__nav{

@@ -1,18 +1,18 @@
 {
   "name": "Dannykanny",
-  "short_name": "DK",
+  "short_name": "Dannykanny",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0d6efd",
   "icons": [
     {
-      "src": "SSHOT MENU FS MOBILE.png",
+      "src": "Porfolio_pic_Dannykanny(png).png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "SSHOT MENU FS MOBILE.png",
+      "src": "Porfolio_pic_Dannykanny(png).png",
       "sizes": "144x144",
       "type": "image/png"
     }
